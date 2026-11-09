@@ -1,4 +1,4 @@
-const API_BASE = '/api';
+const API_BASE = 'https://ecobuild-ai-x2wb.onrender.com';
 
 function getAuthHeaders(): HeadersInit {
   const token = localStorage.getItem('ecobuild_token');
